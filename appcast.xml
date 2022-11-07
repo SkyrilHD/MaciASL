@@ -1,0 +1,12 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MaciASL</title>
+        <item>
+            <title>1.6.3</title>
+            <pubDate>Mon, 07 Nov 2022 15:43:12 +0000</pubDate>
+            <sparkle:minimumSystemVersion>10.9</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/acidanthera/MaciASL/releases/download/1.6.3/MaciASL-1.6.3-RELEASE.dmg" sparkle:version="1.6.3" sparkle:shortVersionString="1.6.3" length="6756486" type="application/octet-stream" sparkle:edSignature="snXr2CxfcCfB/q7H3tDPPOZECkk0FWCGdvbzr4CDWoMRA9mT2/Qi46JilTsNj2SyPIe3i4+INGaw6/he6yVCDg=="/>
+        </item>
+    </channel>
+</rss>
