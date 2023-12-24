@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		71DD425326F233A000E1C7C4 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DD425126F2329C00E1C7C4 /* Sparkle.framework */; };
 		71DD425426F233A000E1C7C4 /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71DD425126F2329C00E1C7C4 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		71E778512B37E37F00E96577 /* Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E778502B37E37F00E96577 /* Colorize.swift */; };
 		B01056A2161CE6CB006A21AC /* MaciASL.icns in Resources */ = {isa = PBXBuildFile; fileRef = B01056A1161CE6CB006A21AC /* MaciASL.icns */; };
 		B013B827160C529600F6A7F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013B826160C529600F6A7F2 /* Cocoa.framework */; };
 		B013B833160C529600F6A7F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B013B832160C529600F6A7F2 /* main.m */; };
@@ -17,7 +18,6 @@
 		B013B840160C529700F6A7F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B013B83E160C529700F6A7F2 /* MainMenu.xib */; };
 		B017FB2B1861532200DA033A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B017FB2A1861532200DA033A /* SystemConfiguration.framework */; };
 		B01A8103169C1CEB0056B5C6 /* SSDT.m in Sources */ = {isa = PBXBuildFile; fileRef = B01A8102169C1CEB0056B5C6 /* SSDT.m */; };
-		B01CAF951618EB4900AB9F0C /* Colorize.m in Sources */ = {isa = PBXBuildFile; fileRef = B01CAF941618EB4900AB9F0C /* Colorize.m */; };
 		B031539C1956A21B0056C7F2 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B031539B1956A21B0056C7F2 /* XCTest.framework */; };
 		B03153A41956A21B0056C7F2 /* MaciASL_Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B03153A31956A21B0056C7F2 /* MaciASL_Tests.m */; };
 		B06352E2177EA65B00956EB1 /* Patch.xib in Resources */ = {isa = PBXBuildFile; fileRef = B06352E4177EA65B00956EB1 /* Patch.xib */; };
@@ -112,6 +112,7 @@
 		71BF358226F520A5005D5374 /* MaciASL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MaciASL-Info.plist"; sourceTree = "<group>"; };
 		71DD425126F2329C00E1C7C4 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		71E7784D2B37DF9800E96577 /* MaciASL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaciASL-Bridging-Header.h"; sourceTree = "<group>"; };
+		71E778502B37E37F00E96577 /* Colorize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colorize.swift; sourceTree = "<group>"; };
 		B01056A1161CE6CB006A21AC /* MaciASL.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = MaciASL.icns; sourceTree = SOURCE_ROOT; };
 		B013B822160C529600F6A7F2 /* MaciASL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MaciASL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B013B826160C529600F6A7F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
@@ -124,8 +125,6 @@
 		B017FB2A1861532200DA033A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		B01A8101169C1CEB0056B5C6 /* SSDT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDT.h; sourceTree = "<group>"; };
 		B01A8102169C1CEB0056B5C6 /* SSDT.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSDT.m; sourceTree = "<group>"; };
-		B01CAF931618EB4900AB9F0C /* Colorize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Colorize.h; sourceTree = "<group>"; };
-		B01CAF941618EB4900AB9F0C /* Colorize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Colorize.m; sourceTree = "<group>"; };
 		B031539A1956A21B0056C7F2 /* MaciASL Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MaciASL Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B031539B1956A21B0056C7F2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		B031539F1956A21B0056C7F2 /* MaciASL Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MaciASL Tests-Info.plist"; sourceTree = "<group>"; };
@@ -252,8 +251,7 @@
 			children = (
 				B0E0184C161531B2008CAC9B /* AppDelegate.h */,
 				B0E0184D161531B2008CAC9B /* AppDelegate.m */,
-				B01CAF931618EB4900AB9F0C /* Colorize.h */,
-				B01CAF941618EB4900AB9F0C /* Colorize.m */,
+				71E778502B37E37F00E96577 /* Colorize.swift */,
 				B013B838160C529600F6A7F2 /* Document.h */,
 				B013B839160C529600F6A7F2 /* Document.m */,
 				B013B83B160C529600F6A7F2 /* Document.xib */,
@@ -521,13 +519,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71E778512B37E37F00E96577 /* Colorize.swift in Sources */,
 				B013B833160C529600F6A7F2 /* main.m in Sources */,
 				B013B83A160C529600F6A7F2 /* Document.m in Sources */,
 				B073C419180CE89B00424B2F /* DocumentController.m in Sources */,
 				B0E0184E161531B2008CAC9B /* AppDelegate.m in Sources */,
 				B0E01852161532EB008CAC9B /* iASL.m in Sources */,
 				B0E0186416157084008CAC9B /* Navigator.m in Sources */,
-				B01CAF951618EB4900AB9F0C /* Colorize.m in Sources */,
 				B0A6BF8E161A827700DDE1EF /* Patch.m in Sources */,
 				B0A6BF94161A98A900DDE1EF /* Source.m in Sources */,
 				B01A8103169C1CEB0056B5C6 /* SSDT.m in Sources */,

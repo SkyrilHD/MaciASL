@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "Source.h"
 #import "Document.h"
-#import "Colorize.h"
+#import "MaciASL-Swift.h"
 #import "iASL.h"
 #import "SSDT.h"
 #import "DocumentController.h"
