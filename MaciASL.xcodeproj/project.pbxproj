@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7157EC7B2B38C3C900BFBC40 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7157EC7A2B38C3C900BFBC40 /* main.swift */; };
 		71DD425326F233A000E1C7C4 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71DD425126F2329C00E1C7C4 /* Sparkle.framework */; };
 		71DD425426F233A000E1C7C4 /* Sparkle.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 71DD425126F2329C00E1C7C4 /* Sparkle.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		71E778512B37E37F00E96577 /* Colorize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71E778502B37E37F00E96577 /* Colorize.swift */; };
 		B01056A2161CE6CB006A21AC /* MaciASL.icns in Resources */ = {isa = PBXBuildFile; fileRef = B01056A1161CE6CB006A21AC /* MaciASL.icns */; };
 		B013B827160C529600F6A7F2 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B013B826160C529600F6A7F2 /* Cocoa.framework */; };
-		B013B833160C529600F6A7F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B013B832160C529600F6A7F2 /* main.m */; };
 		B013B83A160C529600F6A7F2 /* Document.m in Sources */ = {isa = PBXBuildFile; fileRef = B013B839160C529600F6A7F2 /* Document.m */; };
 		B013B83D160C529600F6A7F2 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = B013B83B160C529600F6A7F2 /* Document.xib */; };
 		B013B840160C529700F6A7F2 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = B013B83E160C529700F6A7F2 /* MainMenu.xib */; };
@@ -109,6 +109,7 @@
 		50CCDC5F22202620000981B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/Patch.xib"; sourceTree = "<group>"; };
 		50CCDC6022202620000981B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/SSDT.xib"; sourceTree = "<group>"; };
 		50CCDC6122202620000981B0 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		7157EC7A2B38C3C900BFBC40 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		71BF358226F520A5005D5374 /* MaciASL-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MaciASL-Info.plist"; sourceTree = "<group>"; };
 		71DD425126F2329C00E1C7C4 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		71E7784D2B37DF9800E96577 /* MaciASL-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaciASL-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -118,7 +119,6 @@
 		B013B826160C529600F6A7F2 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		B013B829160C529600F6A7F2 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		B013B82B160C529600F6A7F2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		B013B832160C529600F6A7F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B013B834160C529600F6A7F2 /* MaciASL-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MaciASL-Prefix.pch"; sourceTree = "<group>"; };
 		B013B838160C529600F6A7F2 /* Document.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Document.h; sourceTree = "<group>"; };
 		B013B839160C529600F6A7F2 /* Document.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Document.m; sourceTree = "<group>"; usesTabs = 0; };
@@ -286,7 +286,7 @@
 				B0CABE541652CE8A00A04C7E /* MaciASL.sdef */,
 				B0899353161D781C00FE7BD8 /* DSL.icns */,
 				71BF358226F520A5005D5374 /* MaciASL-Info.plist */,
-				B013B832160C529600F6A7F2 /* main.m */,
+				7157EC7A2B38C3C900BFBC40 /* main.swift */,
 				B013B834160C529600F6A7F2 /* MaciASL-Prefix.pch */,
 				CEC419DC213077FC002FB644 /* Localizable.strings */,
 			);
@@ -520,11 +520,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				71E778512B37E37F00E96577 /* Colorize.swift in Sources */,
-				B013B833160C529600F6A7F2 /* main.m in Sources */,
 				B013B83A160C529600F6A7F2 /* Document.m in Sources */,
 				B073C419180CE89B00424B2F /* DocumentController.m in Sources */,
 				B0E0184E161531B2008CAC9B /* AppDelegate.m in Sources */,
 				B0E01852161532EB008CAC9B /* iASL.m in Sources */,
+				7157EC7B2B38C3C900BFBC40 /* main.swift in Sources */,
 				B0E0186416157084008CAC9B /* Navigator.m in Sources */,
 				B0A6BF8E161A827700DDE1EF /* Patch.m in Sources */,
 				B0A6BF94161A98A900DDE1EF /* Source.m in Sources */,
