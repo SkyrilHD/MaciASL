@@ -512,7 +512,7 @@ static NSRegularExpression *regString, *regNumber, *regComment, *regOperator, *r
     comments.scanLocation = range.location;
     if (open < close) [comments scanUpToString:@"/*" intoString:nil];
     close = NSMaxRange(range);
-    while (comments.scanLocation < close) {
+    while (comments.scanLocation < close && !comments.isAtEnd) {
         range.location = comments.scanLocation;
         [comments scanString:@"/*" intoString:nil];
         [comments scanUpToString:@"*/" intoString:nil];
